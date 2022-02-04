@@ -1,0 +1,18 @@
+
+.gamesBtnSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.gamesBtn{
+    width: 100%;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: rgb(190, 37, 196);
+}
