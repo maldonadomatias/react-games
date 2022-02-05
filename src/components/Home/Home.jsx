@@ -8,8 +8,8 @@ const Home = () => {
     <div className='container'>
         <section className='gamesBtnSection'>
           <Link to="tictactoe"><button className='gamesBtn'>Tic Tac Toe</button></Link> 
-          <Link to="tictactoe"><button className='gamesBtn'>Daze Dice</button></Link> 
-          <Link to="tictactoe"><button className='gamesBtn'>21 Blackjack</button></Link> 
+          <Link to="#"><button className='gamesBtn'>Crazy Dice</button></Link> 
+          <Link to="blackjack"><button className='gamesBtn'>21 Blackjack</button></Link> 
         </section>
     </div>
 )};
