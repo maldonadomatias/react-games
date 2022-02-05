@@ -4,9 +4,8 @@
     flex-direction: column;
     justify-content: center;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* top: 50%;
+    left: 50%; */
 }
 .gamesBtn{
     width: 100%;
@@ -15,4 +14,10 @@
     cursor: pointer;
     transition: all 0.2s;
     background-color: rgb(190, 37, 196);
+}
+
+.title{
+    margin-top: -20rem;
+    font-size: 2rem;
+    text-align: center;
 }

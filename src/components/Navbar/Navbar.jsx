@@ -32,8 +32,6 @@ export default function Navbar() {
       {(toggleMenu || screenWidth > 500) && (
         <ul className="list">
             <Link to="/"><li className="items">Home</li></Link>             
-            <li className="items">Services</li>
-            <li className="items">Contact</li>
         </ul>
       )}
 

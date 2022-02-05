@@ -6,6 +6,7 @@ import TicTacToe from './components/TicTacToe/TicTacToe'
 import Navbar from './components/Navbar/Navbar'
 import Dice from './components/Dice/Dice';
 import Blackjack from './components/Blackjack/Blackjack';
+import Snake from './components/Snake/Snake';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" index element={<Home/>}/>
             <Route path="tictactoe" element={<TicTacToe/>}/>
             <Route path="blackjack" element={<Blackjack/>}/>
+            <Route path="snake" element={<Snake size={350}/>}/>
         </Routes>
 
     </BrowserRouter>
